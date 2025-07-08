@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -101,5 +102,10 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    background-image: url('https://searchcord.io/assets/background-dark-CwuKDHea.avif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 }
