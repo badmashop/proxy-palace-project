@@ -100,12 +100,19 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
+  html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
     background-image: url('https://searchcord.io/assets/background-dark-CwuKDHea.avif');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-color: #000;
   }
 }
